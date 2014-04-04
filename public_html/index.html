@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="images-css-js/style.css" type="text/css"/>
+
+        <title>Whatsapp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="images-css-js/fittext.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                WELKOM WHATSAPP GEBRUIKER!
+                <img src="images-css-js/headerlogo.jpg" />
+            </div>
+
+            <div class="questionBlock" id="que1" style="display:">
+                <div class="message">
+                    Beantwoord 3 vragen en maak kans om een Apple product te winnen!
+                    <br>
+                    <span class="steps">
+                        Vraag 1/3:
+                    </span>
+                </div>
+                <div class="question">
+                    Hoeveel maanden gebruik je WhatsApp?
+                </div>
+                <button class="btn" onclick="">Minder dan 3 maanden</button>
+                <button class="btn" onclick="">3 tot 6 maanden</button>
+                <button class="btn" onclick="">Meer dan 6 maanden</button>
+            </div>
+
+            <div class="questionBlock" id="que2" style="display:none;">
+                <div class="message">
+                    <span class="steps">
+                        Vraag 2/3:
+                    </span>
+                </div>
+                <div class="question">
+                    Op welke type telefoon gebruik je WhatsApp?
+                </div>
+                <button class="btn" onclick="">Android</button>
+                <button class="btn" onclick="">iPhone</button>
+                <button class="btn" onclick="">Andere</button>
+            </div>
+
+            <div class="questionBlock" id="que3" style="display:none;">
+                <div class="message">
+                    <span class="steps">
+                        Vraag 3/3:
+                    </span>
+                </div>
+                <div class="question">
+                    Wat vindt je het leukst ann WhatsApp?
+                </div>
+                <button class="btn" onclick="">Emoticons</button>
+                <button class="btn" onclick="">Foto's verzenden</button>
+                <button class="btn" onclick="">Audio</button>
+            </div>
+
+            <div class="footer">
+                copyright &COPY; information
+            </div>
+
+        </div>
+        <script type="text/javascript">
+		$("body").fitText(8, { minFontSize: '9px', maxFontSize: '20px' });
+		
+	</script>
+    </body>
+</html>

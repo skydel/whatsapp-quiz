@@ -1,0 +1,100 @@
+html{
+}
+img{
+    width: 100%;
+}
+body{
+    background: #333333;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-shadow:  1px 1px 1px #000;
+}
+.container {
+    width: 640px;
+    margin: 0 auto;
+    background: #373c40;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header{
+    font-size: 2.0em;
+    font-weight: bold;
+    width: 100%;
+   /* background:url("headerlogo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 220px;
+    */
+    color: #FFFFFF;
+}
+.message{
+    font-size: 1.8em;
+}
+
+.question {
+    font-size: 1.8em;
+    background: #FFFFFF;
+    color: #000000;
+    text-height: font-size;
+    padding: 30px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    font-size: 1.8em;
+    background: #65c639;
+
+    background: #75c639;
+    background: -moz-linear-gradient(top, #75c639 0%, #65c639 51%, #75c639 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #75c639), color-stop(51%, #65c639), color-stop(100%, #75c639));
+    background: -webkit-linear-gradient(top, #75c639 0%, #65c639 51%, #75c639 100%);
+    background: -o-linear-gradient(top, #75c639 0%, #65c639 51%, #75c639 100%);
+    background: -ms-linear-gradient(top, #75c639 0%, #65c639 51%, #75c639 100%);
+    background: linear-gradient(to bottom, #75c639 0%, #65c639 51%, #75c639 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75c639', endColorstr='#75c639', GradientType=0 );
+
+    color: #FFFFFF;
+    text-height: font-size;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #373c40;
+    text-shadow:  1px 1px 1px #000;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .container{
+        width:320px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .container{
+        width:320px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .container{
+        width:640px;
+    }
+}
+
+@media only screen and (min-width : 1224px) {
+    .container{
+        width:640px;
+    }
+}
+
+@media only screen and (min-width : 1824px) {
+    .container{
+        width:640px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {
+    .container{
+        width:640px;
+    }
+}
